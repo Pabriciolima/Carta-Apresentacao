@@ -2,6 +2,28 @@
     margin: 0;
     padding: 0;
   }
+.navigation-menu{
+background-color: aqua;
+padding: 20px;
+display: flex;
+justify-content:flex-end;
+
+
+}
+.navigation-menu a{
+  display: block;
+  line-height: 24px;
+  margin: 10px;
+  padding: 5px;
+  text-decoration:none;
+  transition: transform 0.3s;
+}
+.navigation-menu a:hover{
+  transform: scale(1.2); 
+
+}
+
+
  
 
 h1{font-size: 35px;
