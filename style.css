@@ -5,10 +5,7 @@
 html{
     scroll-behavior: smooth;
   }
-body{
-  color: red;
-  background-color: rgb(3, 3, 65);
-}
+
 .navigation-menu{
 background-color: rgb(255, 255, 255);
 padding: 20px;
@@ -38,7 +35,7 @@ height: 20px;
   margin: 0px;
   padding: 20px;
   height: 300px;
-  background-color: rgb(3, 3, 65);
+  background-color: rgb(241, 241, 241);
 }
 .portfolio img{
   border-radius: 50%;
