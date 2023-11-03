@@ -12,9 +12,8 @@ padding: 20px;
 display: flex;
 justify-content:flex-end;
 height: 20px;
-
-
 }
+
 .navigation-menu a{
   display: block;
   line-height: 24px;
@@ -22,7 +21,9 @@ height: 20px;
   padding: 5px;
   text-decoration:none;
   transition: transform 0.3s;
+  color: black;
 }
+
 .navigation-menu a:hover{
   transform: scale(1.2); 
   text-decoration: underline;
@@ -37,6 +38,7 @@ height: 20px;
   height: 300px;
   background-color: rgb(241, 241, 241);
 }
+
 .portfolio img{
   border-radius: 50%;
   width: 300px;
@@ -45,6 +47,7 @@ height: 20px;
   padding: 20px;
   font-family: 'Montserrat', sans-serif
 }
+
 .portfolio p{
   display: block;
   flex-direction: column;
