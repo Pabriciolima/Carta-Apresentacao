@@ -4,6 +4,8 @@
   }
 html{
     scroll-behavior: smooth;
+    min-width: 520px;
+    max-width: 1090px;
   }
 
 .navigation-menu{
@@ -15,6 +17,7 @@ height: 20px;
 }
 
 .navigation-menu a{
+  font-family: 'Courier New', Courier, monospace;
   display: block;
   line-height: 24px;
   margin: 10px;
@@ -26,58 +29,78 @@ height: 20px;
 
 .navigation-menu a:hover{
   transform: scale(1.2); 
-  text-decoration: underline;
+  
   
   
 }
 .portfolio{
   display: flex;
-  flex-direction: column;
-  margin: 0px;
-  padding: 20px;
-  height: 300px;
-  background-color: rgb(241, 241, 241);
-}
-
-.portfolio img{
-  border-radius: 50%;
-  width: 300px;
-}
-.portfolio h3{
-  padding: 20px;
-  font-family: 'Montserrat', sans-serif
-}
-
-.portfolio p{
-  display: block;
-  flex-direction: column;
   margin: 0px;
   padding: 10px;
-  width: 500px;
+  height: 270px;
+  background-image:url(/img/backgraund-image.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content:end ;
+   
+
+  
+}
+.portfolio-1 h1{
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 60px;
+  flex-wrap: wrap;
+  padding: 0px;
+  background-color: rgb(230, 230, 230);
+  font-family: 'Agbalumo',sans-serif;
+ 
+}
+.portfolio-2 h3{
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(230, 230, 230);
+  flex-wrap: nowrap;
+  font-size: 40px;
+}
+
+.portfolio-3 p{
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  flex-wrap: wrap;
+  background-color: rgb(230, 230, 230);
+  
+}
+.portfolio img {
+
+  width: 280px;
+  height: 320px;
+  flex-direction: row;
+  justify-content: end;
+  flex-wrap: nowrap
   
 }
 
-
+.icons{
+  background-color: rgb(230, 230, 230);
+  transition: 200ms;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
  
+}
 
-h1{font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
-  }
+.icons-skin { 
+  display: flex;
+  width: 50px;
+  height: 50px;
+ 
+}
 
- p{font-family: 'Dosis', sans-serif;}
-
- header{
-  background-color: rgb(255, 255, 255);
- }
- section{
-  background-color: rgb(255, 255, 255);
-
- }
- .main{
-  background-color: rgb(250, 11, 238);
-
- }
- .main-2{
-  background-color: rgb(251, 255, 0);
-
- }
+.icons :hover{
+  transform: scale(1.1);
+}
