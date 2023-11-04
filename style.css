@@ -19,20 +19,22 @@ height: 20px;
 .navigation-menu a{
   font-family: 'Courier New', Courier, monospace;
   display: block;
-  line-height: 24px;
-  margin: 10px;
-  padding: 5px;
+  line-height: 1px;
+  padding: 10px;
   text-decoration:none;
-  transition: transform 0.3s;
+  transition: transform 0.4s;
   color: black;
 }
 
 .navigation-menu a:hover{
-  transform: scale(1.2); 
-  
+  transform: scale(1.5);
+  background-color: #00b7ff;
+  color: white;
+  border-radius: 10%;
   
   
 }
+
 .portfolio{
   display: flex;
   margin: 0px;
