@@ -126,3 +126,12 @@ height: 20px;
   background-color: red;
 
 }
+/* Estilização sobre mim termina aqui*/
+
+/* Estilização contact  começa aqui*/
+.container {
+  background-color: red;
+  padding: 10px;
+  display: flex;
+  
+}
