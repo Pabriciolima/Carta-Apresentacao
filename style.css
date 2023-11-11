@@ -123,9 +123,23 @@ height: 20px;
 }
 /* Estilização sobre mim começa aqui*/
 .main{
+  display: flex;
   background-color: red;
+  padding: 20px;
+  margin: 20px;
+  flex-direction: row;
+  align-items: center;
 
 }
+.main h2{
+    background-color: blue;
+    align-items: center;
+}
+.main p{
+    background-color: blue;
+    align-items: center;
+}
+
 /* Estilização sobre mim termina aqui*/
 
 /* Estilização contact  começa aqui*/
