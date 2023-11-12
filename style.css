@@ -127,17 +127,19 @@ height: 20px;
   background-color: red;
   padding: 20px;
   margin: 20px;
+  height: 400px;
   flex-direction: row;
-  align-items: center;
+  
 
 }
 .main h2{
     background-color: blue;
-    align-items: center;
+    height: 100px;
+    
 }
 .main p{
     background-color: blue;
-    align-items: center;
+    
 }
 
 /* Estilização sobre mim termina aqui*/
