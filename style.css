@@ -127,21 +127,24 @@ height: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: red;
+     background-color: rgb(230, 230, 230);
     padding: 20px;
     margin: 20px;
-    height: 400px;
+    height: 800px;
   }
   
   .main h2, .main h3, .main p {
-    background-color: blue;
+     background-color: rgb(230, 230, 230);
     padding: 10px;
     margin: 10px;
     text-align: center;
   }
   .main img{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
+    border-radius: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    ;
   }
   .main p{
     font-size: 25px;
@@ -154,5 +157,6 @@ height: 20px;
   background-color: red;
   padding: 10px;
   display: flex;
+
   
 }
